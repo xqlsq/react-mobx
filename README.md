@@ -46,6 +46,7 @@ $ npm start
 
 ## 概览
 
+![preview](./public/imgs/2.png)
+
 ![preview](./public/imgs/1.png)
 
-![preview](./public/imgs/2.png)
