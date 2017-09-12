@@ -2,11 +2,11 @@
 
 ## 技术栈
 
-脚手架：create-react-app
-前端框架：[react](https://discountry.github.io/react/docs/hello-world.html)
-组件库：[antd](https://ant.design/docs/react/introduce-cn)
-状态管理：[mobx](https://suprise.gitbooks.io/mobx-cn/content/)
-路由： [react-router](https://react-guide.github.io/react-router-cn/index.html)
+1. 脚手架：create-react-app
+2. 前端框架：[react](https://discountry.github.io/react/docs/hello-world.html)
+3. 组件库：[antd](https://ant.design/docs/react/introduce-cn)
+4. 状态管理：[mobx](https://suprise.gitbooks.io/mobx-cn/content/)
+5. 路由： [react-router](https://react-guide.github.io/react-router-cn/index.html)
 
 ## 项目目录
 
