@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#ffffff">
+  <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+  <style>
+    body {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    div.background {
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      display: block;
+      background: no-repeat;
+      background-size: cover;
+      position: absolute;
+      z-index: -1;
+      left: 0px;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      -webkit-filter: blur(5px);
+      -moz-filter: blur(5px);
+      -mz-filter: blur(5px);
+      -o-filter: blur(5px);
+      filter: url(http://naotu.baidu.com/public/images/blur.svg#blur);
+      filter: blur(5px);
+      -webkit-transition: opacity 1.5s ease;
+      transition: opacity 1.5s ease;
+    }
+  </style>
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <title>React App</title>
+</head>
+
+<body>
+  <noscript>
+    You need to enable JavaScript to run this app.
+  </noscript>
+  <div class='background' style='background:url(http://naotu.baidu.com/public/images/indexbackground.jpg);background-size: 100% 100%;opacity: 1'>
+  </div>
+  <div id="root" style="position: relative; top: 50%; transform: translateY(-50%)"></div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+</body>
+
+</html>
